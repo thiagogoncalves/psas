@@ -32,6 +32,7 @@ import { AttendanceComponent } from './attendance/attendance.component';
 import { AnswerComponent } from './answer/answer.component';
 import { MemberComponent } from './member/member.component';
 import { FormsModule } from '@angular/forms';
+import { NineBoxChartComponent } from './components/nine-box-chart/nine-box-chart.component';
 
 
 
@@ -92,7 +93,8 @@ export class NoCacheHeadersInterceptor implements HttpInterceptor {
     ProfileComponent,
     AttendanceComponent,
     AnswerComponent,
-    MemberComponent
+    MemberComponent,
+    NineBoxChartComponent
   ],
   imports: [
     BrowserModule,
